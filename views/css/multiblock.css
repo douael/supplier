@@ -1,0 +1,179 @@
+/* Block multiblock */
+#left_column {display:none}
+.col-sm-9 {
+    width: 100%;
+}
+.multiblock_block { margin-bottom: 2em }
+.multiblock_block .rte { background: transparent none repeat scroll 0 0 }
+.multiblock_block h1 {
+    margin:40px 0 10px 0;
+    padding: 0;
+    background: none;
+}
+.multiblock_block h2 {
+        color:#939393;
+    font-size:30px;
+    text-transform:uppercase;
+      font-family: 'lucida_granderegular';
+      border-bottom:1px solid #153486;
+      padding-bottom:11px
+}
+#multiblock_block_center p { padding-left: 0 }
+#multiblock_block_center .rte img
+{
+    margin-bottom:20px
+    }
+#multiblock_block_center .rte p {color:#999; font-size:13px }
+
+#multiblock_block_center p#multiblock_image_legend {
+   margin: 0 0 10px;
+   padding:0;
+    color: #666;
+   font-size: 10px;
+}
+
+#multiblock_block_center .rte a.more_link
+{
+    background:#e6e6e6;
+    font-size:13px;
+    color:#999;
+    padding:0 10px;
+    height:30px;
+    line-height:30px;
+    /*width:68px;*/
+    display:block;
+    margin-bottom:20px
+    }
+
+
+
+#multiblock_block_center .rte a.more_link:hover
+{
+    background:#153486;
+    color:#fff;
+
+    }
+#multiblock_block_center .row-fluid .spanblock {float:none!important;}
+#multiblock_block_center .row-fluid {float:left!important; width:48%!important;padding:0 1%; }
+.view-third img {
+    border: 9px solid #e7e7e7;
+    transition: all 0.2s ease-in 0s;
+}
+.view-third .mask {
+    background-color: rgba(0, 0, 0, 0.6);
+    
+    opacity: 0;
+    padding-top: 100px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    transition: all 0.2s ease-in-out 0.4s;
+    
+}
+.view-third .mask1 {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 354px;
+    opacity: 0;
+    padding-top: 130px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    transition: all 0.2s ease-in-out 0.4s;
+    width: 259px;
+}
+.view-third .zoom {
+    background: none repeat scroll 0 0 #0a0a0a;
+    border-radius: 10px;
+    color: #fff;
+    display: inline-block;
+    font-family: "latobold";
+    font-size: inherit;
+    line-height: 32px;
+    margin-right: 10px;
+    padding: 15px;
+    text-align: right;
+    text-rendering: auto;
+}
+.view-third .zoom:hover {
+    background: none repeat scroll 0 0 #fff;
+    color: #0a0a0a;
+}
+.noflottant {
+    clear: both;
+}
+.detail_collection img {
+    border: 6px solid #0a0a0a;
+    float: left;
+    height: auto;
+    margin-bottom: 30px;
+    margin-left: 0;
+    margin-right: 25px !important;
+    margin-top: 4px;
+    max-width: 100%;
+}
+.view-third .zoom:before {
+    content: "";
+    font: 14px/1 FontAwesome;
+}
+.view-third h2 {
+    color: #fff;
+    font-family: "latobold";
+    font-size: 24px;
+    text-transform: uppercase;
+    transform: translateY(-100px);
+    transition: all 0.2s ease-in-out 0s;
+}
+.view-third h3 {
+    color: #cacaca;
+    font-family: "latoblack";
+    font-size: 18px !important;
+    margin-top: 10px !important;
+    padding: 0 !important;
+    text-transform: uppercase;
+}
+.view-third p {
+    color: #fff;
+    transform: translateY(-100px);
+    transition: all 0.2s ease-in-out 0s;
+}
+.view-third a.info {
+    background: none repeat scroll 0 0 #0a0a0a;
+    color: #cacaca;
+    display: inline-block;
+    font-family: "latoregular";
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 11px 23px;
+    text-transform: uppercase;
+    transform: translateY(-200px);
+    transition: all 0.2s ease-in-out 0s;
+}
+.view-third a.info:hover {
+    background: none repeat scroll 0 0 #cacaca;
+    color: #0a0a0a;
+}
+.view-third:hover .mask {
+    border: 9px solid #0a0a0a;
+    opacity: 1;
+    transform: translate(0px, 0px);
+    transition-delay: 0s;
+}
+.view-third:hover .mask1 {
+    border: 9px solid #0a0a0a;
+    opacity: 1;
+    transform: translate(0px, 0px);
+    transition-delay: 0s;
+}
+.view-third:hover h2 {
+    transform: translateY(0px);
+    transition-delay: 0.5s;
+}
+.view-third:hover p {
+    transform: translateY(0px);
+    transition-delay: 0.4s;
+}
+.view-third:hover a.info {
+    transform: translateY(0px);
+    transition-delay: 0.3s;
+}

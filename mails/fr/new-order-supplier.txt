@@ -1,0 +1,5 @@
+{cnt} 
+
+
+{shop_name} [/{shop_url}]
+
